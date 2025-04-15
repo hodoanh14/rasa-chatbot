@@ -8,6 +8,8 @@ WORKDIR /app
 COPY requirements.txt ./
 RUN pip install --no-cache-dir -r requirements.txt
 
+RUN chmod 666 config.yml
+
 # Train mô hình
 RUN rasa train
 
