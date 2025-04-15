@@ -8,10 +8,10 @@ WORKDIR /app
 COPY requirements.txt ./
 RUN pip install --no-cache-dir -r requirements.txt
 
-RUN chmod 666 config.yml
+
 
 # Train mô hình
-RUN rasa train
+#RUN rasa train
 
 # Chạy server Rasa khi container khởi động
 CMD ["rasa", "run", "--enable-api", "--cors", "*", "--port", "8000"]
