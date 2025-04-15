@@ -7,4 +7,6 @@ COPY . /app
 RUN pip install -U pip
 RUN pip install -r requirements.txt
 
-CMD ["rasa", "run", "--enable-api", "--cors", "*", "--debug"]
+EXPOSE 10000
+
+CMD ["run", "--enable-api", "--cors", "*", "--port", "10000"]
