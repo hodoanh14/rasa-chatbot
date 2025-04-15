@@ -1,17 +1,10 @@
-FROM rasa/rasa:3.6.10
+FROM python:3.10
 
-# Copy toàn bộ mã nguồn vào container
-COPY . /app
 WORKDIR /app
 
-# Cài đặt các thư viện bổ sung nếu có
-COPY requirements.txt ./
-RUN pip install --no-cache-dir -r requirements.txt
+COPY . /app
 
+RUN pip install -U pip
+RUN pip install -r requirements.txt
 
-
-# Train mô hình
-#RUN rasa train
-
-# Chạy server Rasa khi container khởi động
-CMD ["rasa", "run", "--enable-api", "--cors", "*", "--port", "8000"]
+CMD ["rasa", "run", "--enable-api", "--cors", "*", "--debug"]
