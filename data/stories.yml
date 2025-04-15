@@ -1,0 +1,30 @@
+stories:
+- steps:
+  - intent: ask_about_imou_solar_camera
+  - action: utter_ask_about_imou_solar_camera
+  story: story_ask_about_imou_solar_camera
+- steps:
+  - intent: ask_imou_solar_camera_specs
+  - action: utter_ask_imou_solar_camera_specs
+  story: story_ask_imou_solar_camera_specs
+- steps:
+  - intent: KhongBietTraloi
+  - action: utter_KhongBietTraloi
+  story: story_KhongBietTraloi
+- steps:
+  - intent: GapNhanVien
+  - action: utter_GapNhanVien
+  story: story_GapNhanVien
+- steps:
+  - intent: greet
+  - action: utter_greet
+  story: story_greet
+- steps:
+  - intent: goodbye
+  - action: utter_goodbye
+  story: story_goodbye
+- steps:
+  - intent: bot_challenge
+  - action: utter_bot_challenge
+  story: story_bot_challenge
+version: '3.1'

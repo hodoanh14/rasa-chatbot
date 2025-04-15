@@ -1,0 +1,19 @@
+{
+  "lookup": {
+    "eJyLrq6NBQAEOAGx": "action_listen",
+    "eJwti0EKgDAMBL/SB/iCfkUkxJJDsE0kTb2U/t2A3nbYmX2uLc3b6AEszio5zW+AYKOcfqjcnSTc0cnCYQn0uPsFeOpw4KYDulY0KFEarnW8rJkkiA==": "utter_ask_about_imou_solar_camera",
+    "eJyVjcsNgDAMQ1fpAEzAKghFocohoh+UJlyq7k4kOIO42fKzvfQxhX4InYBRuZY59FtAwUxzeEziplSctUbiDBe36nHbAbdqCpyrQasJBaI3BcfHsqmSwNvAv7f1ApdPT6A=": "action_listen",
+    "eJwti0EKwCAMBL/iA/oCv1JKCCGHUI2SaC/i3xtobzvszLn2kVY3fgBpSNOc1jdAsXJOPxTxwRrudLZwRANH3H6D1DbBW0EDisYQvDP53tcLrKMkiw==": "utter_ask_imou_solar_camera_specs",
+    "eJyVjVEKgDAMQ6+yA3gCryJSxuhHcetG2/kzdncL+q34l5CXZBtzCaMJnhCTUeU1jFsAx4JreEwmNWRnu6I4Q+zWPNYDqNQOWnMUSN6RCNow6fxY7mYo8Dbw722/AJk+T6k=": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohKb8kPjkjMScnNS89tbY2FgDS8h61": "utter_bot_challenge",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohKb8kPjkjMScnNS89tZaAWaUlJalF8ahaCJkYCwC0pz4n": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohPT8/JakytbY2FgAh+hxX": "utter_goodbye",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohPT8/JakytZaAKaUlJalF8TDFuE2JBQCMqTcN": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xErBOyM/L90pM7UkpCgxJz+ztjYWAA48H1Q=": "utter_KhongBietTraloi",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xErBOyM/L90pM7UkpCgxJz+zloBppSUlqUXx6JoImxoLABcHQAQ=": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohvSg1taS2NhYA6dwbhQ==": "utter_greet",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohvSg1taSWgBmlJSWpRfEQpbhMiAUAQvc0lw==": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xErBPbHALyMxLywTKFkbCwCSyx2d": "utter_GapNhanVien",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xErBPbHALyMxLywTKEnApNKSktSieGQN+E2LBQAYczrf": "action_listen"
+  }
+}

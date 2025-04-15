@@ -1,0 +1,101 @@
+actions: []
+intents:
+- ask_about_imou_solar_camera
+- ask_imou_solar_camera_specs
+- KhongBietTraloi
+- GapNhanVien
+- greet
+- goodbye
+- bot_challenge
+responses:
+  utter_GapNhanVien:
+  - text: 'Vui lòng liên hệ theo số điện thoại : 0946.056.013 hoặc zalo : 0943445803
+      trong giờ làm việc'
+  utter_KhongBietTraloi:
+  - text: 'Vui lòng liên hệ theo số điện thoại : 0946.056.013 hoặc zalo : 0943445803
+      trong giờ làm việc'
+  - text: 'Vui lòng liên hệ theo số điện thoại : 0946.056.013 hoặc zalo : 0943445803
+      trong giờ làm việc'
+  - text: 'Vui lòng liên hệ theo số điện thoại : 0946.056.013 hoặc zalo : 0943445803
+      trong giờ làm việc'
+  - text: 'Vui lòng liên hệ theo số điện thoại : 0946.056.013 hoặc zalo : 0943445803
+      trong giờ làm việc'
+  utter_ask_about_imou_solar_camera:
+  - text: 'Bộ camera Imou 4G năng lượng mặt trời bao gồm:
+
+      - Tấm pin năng lượng mặt trời 50W với dây dẫn 5m (kích thước: 678 x 548 x 58
+      mm)
+
+      - Bộ lưu điện Pin Lithium LiFePo4 120W
+
+      - Camera Imou Cruiser 4G (2.0 Megapixel, H265, quay quét 360°, có đèn trợ sáng
+      ban đêm)
+
+      - Giá đỡ tấm pin hình chữ U
+
+      - Thẻ nhớ 64GB
+
+      - Tay vươn dài 60cm
+
+      - Hộp nhựa kỹ thuật
+
+      Bảo hành 24 tháng. Lưu ý: Bộ sản phẩm chưa bao gồm sim 4G.'
+  - text: 'Bộ camera Imou 4G năng lượng mặt trời bao gồm:
+
+      - Tấm pin năng lượng mặt trời 50W với dây dẫn 5m (kích thước: 678 x 548 x 58
+      mm)
+
+      - Bộ lưu điện Pin Lithium LiFePo4 120W
+
+      - Camera Imou Cruiser 4G (2.0 Megapixel, H265, quay quét 360°, có đèn trợ sáng
+      ban đêm)
+
+      - Giá đỡ tấm pin hình chữ U
+
+      - Thẻ nhớ 64GB
+
+      - Tay vươn dài 60cm
+
+      - Hộp nhựa kỹ thuật
+
+      Bảo hành 24 tháng. Lưu ý: Bộ sản phẩm chưa bao gồm sim 4G.'
+  - text: 'Bộ camera Imou 4G solar đi kèm các phụ kiện:
+
+      - Tấm pin mặt trời 50W với giá đỡ hình chữ U
+
+      - Bộ lưu điện 120W
+
+      - Tay vươn lắp đặt dài 60cm
+
+      - Thẻ nhớ 64GB
+
+      - Hộp nhựa kỹ thuật
+
+      - Dây kết nối các phụ kiện'
+  - text: Bộ sản phẩm camera Imou 4G solar được bảo hành chính hãng 24 tháng.
+  - text: Có, camera Imou Cruiser 4G tích hợp đèn trợ sáng cho hình ảnh ban đêm có
+      màu cực đẹp, phân giải 2.0 Megapixel.
+  utter_ask_imou_solar_camera_specs:
+  - text: Tấm pin đi kèm bộ camera Imou 4G solar có công suất 50W, kích thước 678
+      x 548 x 58 mm, kèm dây dẫn 5 mét.
+  - text: Bộ camera sử dụng pin lưu trữ Lithium LiFePo4 công suất 120W, đủ cung cấp
+      điện cho camera hoạt động liên tục.
+  - text: Camera Imou Cruiser 4G có độ phân giải 2.0 Megapixel, sử dụng chuẩn nén
+      H265, hỗ trợ quay quét 360° và có đèn trợ sáng ban đêm.
+  - text: Có, bộ sản phẩm bao gồm sẵn thẻ nhớ 64GB để lưu trữ hình ảnh.
+  utter_bot_challenge:
+  - text: Tôi là một trợ lý ảo được tạo bởi AI.
+  utter_goodbye:
+  - text: Tạm biệt! Hẹn gặp lại sau nhé.
+  utter_greet:
+  - text: Chào bạn! Tôi có thể giúp gì hôm nay?
+  - text: Xin chào! Bạn cần hỗ trợ gì?
+  - text: Rất vui được gặp bạn. Tôi là trợ lý ảo của bạn.
+  - text: Chào mừng bạn đến với hệ thống. Bạn cần hỏi gì?
+  - text: Chào bạn! Có thể tôi giúp gì được cho bạn không?
+  - text: Xin chào! Hôm nay bạn thế nào?
+  - text: Chào bạn, tôi sẵn sàng hỗ trợ bạn.
+  - text: Hey chào bạn! Tôi có thể giúp gì?
+  - text: Cứ thoải mái đặt câu hỏi nhé!
+  - text: Tôi đang ở đây để hỗ trợ bạn!
+version: '3.1'

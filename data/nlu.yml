@@ -1,0 +1,62 @@
+nlu:
+- examples: '- Bộ camera Imou 4G năng lượng mặt trời gồm những gì?
+
+    - Cho tôi biết thông tin về camera Imou sử dụng pin mặt trời
+
+    - Camera Imou 4G chạy bằng năng lượng mặt trời có những phụ kiện gì?
+
+    - Bảo hành camera Imou 4G solar được bao lâu?
+
+    - Camera Imou chạy bằng năng lượng mặt trời có quay đêm không?'
+  intent: ask_about_imou_solar_camera
+- examples: '- Tấm pin năng lượng mặt trời của camera Imou công suất bao nhiêu?
+
+    - Dung lượng pin lưu trữ của bộ camera Imou solar là bao nhiêu?
+
+    - Camera Imou 4G solar có độ phân giải bao nhiêu?
+
+    - Bộ camera này có hỗ trợ thẻ nhớ không?'
+  intent: ask_imou_solar_camera_specs
+- examples: '- cần số điện thoại để liên hệ
+
+    - liên hệ trực tiếp qua zalo hoặc điện thoại
+
+    - gặp nhân viên
+
+    - tôi cần gặp nhân viên'
+  intent: KhongBietTraloi
+- examples: '- Tôi muốn gặp người thật'
+  intent: GapNhanVien
+- examples: '- xin chào
+
+    - hello
+
+    - hi
+
+    - chào buổi sáng
+
+    - chào bạn
+
+    - chào buổi chiều
+
+    - chào buổi tối
+
+    - hey
+
+    - tôi có thể hỏi gì không?
+
+    - có ai ở đó không?'
+  intent: greet
+- examples: '- tạm biệt
+
+    - bye
+
+    - hẹn gặp lại'
+  intent: goodbye
+- examples: '- bạn là ai
+
+    - bạn có phải là bot không
+
+    - bạn được tạo bởi ai'
+  intent: bot_challenge
+version: '3.1'
