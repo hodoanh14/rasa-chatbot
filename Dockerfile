@@ -1,11 +1,8 @@
-FROM python:3.10
+FROM rasa/rasa:3.6.2
 
 WORKDIR /app
 
 COPY . /app
-
-RUN pip install -U pip
-RUN pip install -r requirements.txt
 
 EXPOSE 10000
 
