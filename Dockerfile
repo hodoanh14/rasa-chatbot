@@ -7,4 +7,4 @@ COPY . /app
 EXPOSE 10000
 
 
-CMD ["run", "--enable-api", "models", "--cors", "*", "--port", "10000"]
+CMD ["run", "--enable-api", "--model", "models", "--cors", "*", "--port", "10000"]
