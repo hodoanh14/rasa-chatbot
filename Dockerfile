@@ -12,4 +12,4 @@ COPY models/ /app/models/
 EXPOSE 10000
 
 # Lệnh khởi động Rasa
-CMD ["rasa", "run", "--enable-api", "--model", "models", "--cors", "*", "--port", "10000", "--debug"]
+CMD ["run", "--enable-api", "--model", "models", "--cors", "*", "--port", "10000", "--debug"]
