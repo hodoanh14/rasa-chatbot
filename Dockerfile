@@ -6,4 +6,6 @@ COPY . /app
 
 EXPOSE 10000
 
+RUN rasa train
+
 CMD ["run", "--enable-api", "--cors", "*", "--port", "10000"]
