@@ -4,6 +4,8 @@ WORKDIR /app
 
 COPY . /app
 
+COPY models/ /app/models/
+
 EXPOSE 10000
 
 
