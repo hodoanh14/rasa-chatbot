@@ -4,7 +4,6 @@ WORKDIR /app
 
 # Copy toàn bộ project
 COPY . /app
-
 # Đảm bảo models được copy đúng
 COPY models/ /app/models/
 
