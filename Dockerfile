@@ -11,4 +11,4 @@ COPY models/ /app/models/
 EXPOSE 10000
 
 # Lệnh khởi động Rasa
-CMD ["run", "--enable-api", "--model", "models/20250420-225707-brass-lyrics.tar.gz", "--cors", "*", "--port", "10000", "--debug"]
+CMD ["run", "--enable-api", "--model", "models/20250421-230318-potential-rank.tar.gz", "--cors", "*", "--port", "10000", "--debug"]
